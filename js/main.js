@@ -40,7 +40,7 @@ const closeModal = () => {
   apdateFn();
 };
 
-const openModal = (event) => {
+const openModal = () => {
   currentIndex = +event.target.dataset.index;
   console.log(event.target.dataset.index);
   refs.lightbox.classList.add("is-open");
